@@ -1,1 +1,33 @@
+.textareas{
+    display: inline-grid;
+    column-gap: 50px;
+    margin-bottom: 12px;
+}
 
+.textareas .input{
+    grid-column-start: 1;
+}
+.textareas .output{
+    grid-column-start: 2;
+    border: 2px red solid;
+}
+
+.input,.output{
+    border: 2px steelblue solid;
+    font-family: 'Consolas';
+    border-radius: 0;
+}
+.dialogue-box{
+    font-weight: 500;
+}
+.errors{
+    border: 0px;
+}
+.errors:focus{
+    border: 0;
+}
+@media(max-width:700px){
+    .textareas{
+        column-gap: 5px;
+    }
+}
