@@ -3,7 +3,7 @@ have a input field,
 have a console area for printing errors,
 have a div for printing stuff,
 make stuff resizeable with css i think it is if you cant lemme know
-for PARV66 =>
+for epxzzy =>
 make the fricking thing work,
 make it so it looks for errors,
 make it so you can have templates,
